@@ -3,7 +3,7 @@ import discord
 from huggingface_hub import InferenceClient
 
 # Set up Hugging Face client with your API key
-HUGGINGFACE_API_KEY = os.getenv("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")  # or replace with your API key directly
+HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API")  # or replace with your API key directly
 client = InferenceClient(api_key=HUGGINGFACE_API_KEY)
 
 # Discord bot setup
