@@ -54,4 +54,4 @@ intents.message_content = True
 
 # Instantiate and run the bot
 client = MyClient(intents=intents)
-client.run("MTMwNjE1MTYyMTU0OTM1OTExNA.G-XTnO.mvUO3xJmb30QoNM9ljBfxVE33G8YWdXzUroiX8")
+client.run("DISCORD_TOKEN")
